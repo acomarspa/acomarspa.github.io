@@ -1,4 +1,4 @@
-acomar SPA
+# Acomar Spa
 
 Sitio web oficial de **Acomar Spa**.  
 Transporte y Construcciones con calidad y confianza.
@@ -7,5 +7,5 @@ Este repositorio contiene los archivos del sitio web corporativo de Acomar Spa, 
 
 ## Secciones principales
 - **Nosotros**: Información sobre la empresa.
-- **Servicios**: Transporte,taller mecanico, Construcción y Alquiler de Maquinaria.
+- **Servicios**: Transporte, Taller Mecánico, Construcción y Alquiler de Maquinaria.
 - **Contacto**: Datos de contacto y dirección.
