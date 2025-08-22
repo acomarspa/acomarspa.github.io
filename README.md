@@ -7,5 +7,5 @@ Este repositorio contiene los archivos del sitio web corporativo de Acomar Spa, 
 
 ## Secciones principales
 - **Nosotros**: Información sobre la empresa.
-- **Servicios**: Transporte, Construcción y Alquiler de Maquinaria.
+- **Servicios**: Transporte,taller mecanico, Construcción y Alquiler de Maquinaria.
 - **Contacto**: Datos de contacto y dirección.
