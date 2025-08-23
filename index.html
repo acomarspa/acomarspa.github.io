@@ -26,7 +26,13 @@ header {
 header img { max-width:100px; margin-bottom:10px; transition: transform 0.5s; }
 header img:hover { transform: scale(1.1) rotate(5deg); }
 header h1 { font-size:2em; margin:5px 0; text-shadow: 2px 2px 5px rgba(0,0,0,0.6); }
-header p { font-size:1.1em; }
+/* Título azul fijo */
+#titulo-fijo {
+  font-size: 1.2em;
+  color: #ffeb3b;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
 nav { margin-top:10px; }
 nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; transition:0.3s; }
 nav a:hover { color:#ffeb3b; transform:scale(1.1); }
@@ -40,11 +46,8 @@ nav a:hover { color:#ffeb3b; transform:scale(1.1); }
 #inicio .contenido { position:relative; z-index:1; }
 #inicio img { width:120px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.3); margin-bottom:20px; transition: transform 0.5s, filter 0.5s; }
 #inicio img:hover { transform: scale(1.15) rotate(5deg); filter: brightness(1.2); }
-#inicio h1 { font-size:3em; margin-bottom:15px; text-shadow: 0 0 15px rgba(255,255,255,0.8); animation: glowTitle 3s ease-in-out infinite alternate; }
-@keyframes glowTitle { 0%{text-shadow:0 0 5px rgba(255,255,255,0.6);} 100%{text-shadow:0 0 20px rgba(255,255,255,1);} }
-#inicio p { font-size:1.5em; margin-bottom:30px; }
-.btn { display:inline-block; padding:14px 32px; border-radius:12px; background:#ff9800; color:white; font-weight:bold; text-decoration:none; box-shadow:0 6px 15px rgba(0,0,0,0.3); transition:0.3s; }
-.btn:hover { background:#e65100; transform: scale(1.1) rotate(-1deg); box-shadow:0 10px 20px rgba(0,0,0,0.4); }
+#inicio .btn { display:inline-block; padding:14px 32px; border-radius:12px; background:#ff9800; color:white; font-weight:bold; text-decoration:none; box-shadow:0 6px 15px rgba(0,0,0,0.3); transition:0.3s; }
+#inicio .btn:hover { background:#e65100; transform: scale(1.1) rotate(-1deg); box-shadow:0 10px 20px rgba(0,0,0,0.4); }
 
 /* Botón flotante WhatsApp */
 .float-btn { position:fixed; bottom:30px; right:30px; background:#25d366; color:white; padding:15px; border-radius:50%; font-size:24px; box-shadow:0 6px 15px rgba(0,0,0,0.3); z-index:2000; transition: transform 0.3s, box-shadow 0.3s; }
@@ -86,7 +89,7 @@ footer a:hover { transform: scale(1.2); }
 <header>
   <img src="logo.png" alt="Logo Acomar Spa">
   <h1>Acomar Spa</h1>
-  <p>Taller Mecánico - Construcciones - Transporte - Arriendo de Retroexcavadora</p>
+  <p id="titulo-fijo">Taller Mecánico - Construcciones - Transporte - Arriendo de Retroexcavadora</p>
   <nav>
     <a href="#inicio">Inicio</a>
     <a href="#servicios">Servicios</a>
@@ -99,8 +102,6 @@ footer a:hover { transform: scale(1.2); }
 <section id="inicio">
   <div class="contenido">
     <img src="logo.png" alt="Logo Acomar Spa">
-    <h1>Acomar Spa</h1>
-    <p>Taller Mecánico - Construcciones - Transporte - Arriendo de Retroexcavadora</p>
     <a href="#contacto" class="btn">Contáctanos</a>
   </div>
 </section>
@@ -165,3 +166,4 @@ tarjetas.forEach(t=>observer.observe(t));
 
 </body>
 </html>
+
